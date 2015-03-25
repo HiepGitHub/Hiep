@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">LinkBoard</string>
+    <string name="lbl_back">BACK</string>
+    <string name="lbl_menu">MENU</string>
+    <string name="lbl_exit">EXIT</string>
+    <string name="lbl_linkboard">linkboard</string>
+
+    <string name="lbl_login">Log In</string>
+    <string name="lbl_username_email">username / email address</string>
+    <string name="lbl_password">password</string>
+    <string name="btn_login">LOG IN</string>
+
+    <string name="lbl_signup">Sign Up</string>colors.xml
+    <string name="lbl_username">username</string>
+    <string name="lbl_emailaddress">email address</string>
+    <string name="btn_signup">SIGN UP</string>
+
+    <string name="hint_search_trend">Enter a search for news</string>
+
+    <string name="progress_dialog_message">Loading</string>
+
+
+    <!--LOGIN-->
+    <string name="alert_validate_empty">Please fill all form data.</string>
+    <string name="alert_validate_email">Please enter correct a email.</string>
+    <string name="alert_server_error">Server error.</string>
+
+    <!--HOME-->
+    <string name="footer_about">about</string>
+    <string name="footer_contact">contact</string>
+    <string name="footer_business">business</string>
+    <string name="footer_privacy">privacy</string>
+    <string name="footer_terms">terms</string>
+
+    <!--SETTING-->
+    <string name="save_change">Save Changes</string>
+    <string name="web_setting_title_search_term">Search Terms</string>
+    <string name="web_setting_title_sort_by">Sort By</string>
+    <string name="web_setting_title_type">Type</string>
+    <string name="web_setting_title_date_post">Date Posted</string>
+
+    <string name="web_setting_search_terms_all_of">All of These Words:</string>
+    <string name="web_setting_search_terms_any_of">Any of These Words:</string>
+    <string name="web_setting_search_terms_none_of">None of These Words:</string>
+    <string name="web_setting_search_terms_this_exact">This Exact Word or Phrase:</string>
+    <string name="web_setting_search_terms_from_these">From These Users:</string>
+    <string name="web_setting_search_terms_to_these">To These Users:</string>
+    <string name="web_setting_search_terms_mentioning">Mentioning These Users:</string>
+
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+
+
+    <string name="save_success">Save success</string>
+
+
+    <string-array name="nav_drawer_items">
+        <item >Settings</item>
+        <item >My Profile</item>
+        <item >About Linkboard</item>
+        <item >FAQ</item>
+        <item >Terms of Service</item>
+        <item >Log Out</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_my_profile</item>
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_faq</item>
+        <item>@drawable/ic_term_service</item>
+        <item>@drawable/ic_about</item>
+    </array>
+
+</resources>

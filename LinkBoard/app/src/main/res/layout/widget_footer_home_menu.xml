@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/btAbout"
+        android:text="@string/footer_about"
+        style="@style/footer_menu_item"/>
+    <Button
+        android:id="@+id/btContact"
+        android:text="@string/footer_contact"
+        style="@style/footer_menu_item"/>
+    <Button
+        android:id="@+id/btBusiness"
+        android:text="@string/footer_business"
+        style="@style/footer_menu_item"/>
+    <Button
+        android:id="@+id/btPrivacy"
+        android:text="@string/footer_privacy"
+        style="@style/footer_menu_item"/>
+    <Button
+        android:id="@+id/btTerms"
+        android:text="@string/footer_terms"
+        style="@style/footer_menu_item"/>
+</merge>

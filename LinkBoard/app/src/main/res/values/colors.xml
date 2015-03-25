@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_button_1_color">#ced3d6</color>
+    <color name="bg_login_color">#4988B1</color>
+    <color name="bg_button_login_color">#e7ebef</color>
+    <color name="text_button_login_color">#8e99a0</color>
+    <color name="border_button_login_color">#cad3da</color>
+    <color name="trend_new_color">#4988b0</color>
+    <color name="list_item_color">#8e99a0</color>
+
+    <color name="bg_menu_button">#4988B1</color>
+    <color name="color_bg_actionbar_home">#195591</color>
+    <color name="color_bg_button_focus">#8e99a0</color>
+    <color name="color_text_trend_new">#33b5e5</color>
+
+
+    <color name="color_home_footer_bg">#1a5794</color>
+
+    <color name="text_search_autocomplete_color">#195591</color>
+
+    <color name="color_search_button_nor">#CBDAE3</color>
+    <color name="color_search_button_sel">#92B9D1</color>
+
+    <color name="color_popup_bg">#9ea7ad</color>
+
+    <color name="color_title_bing">#4d6276</color>
+    <color name="color_content_bing">#96a0a7</color>
+
+    <color name="list_divider">#272727</color>
+    <color name="list_background">#4c5660</color>
+
+
+</resources>

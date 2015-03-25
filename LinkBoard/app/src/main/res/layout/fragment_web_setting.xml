@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <antistatic.spinnerwheel.WheelHorizontalView android:id="@+id/slide_category"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:visibleItems="4"
+        app:itemsDimmedAlpha="65"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <com.sss.linkboard.widget.MyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

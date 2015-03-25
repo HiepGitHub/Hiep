@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abs__action_bar_default_height"
+    android:background="#195591">
+
+    <LinearLayout
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+        <ImageView
+            android:id="@+id/icLinkBoard"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:src="@drawable/ic_linkboard" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lbl_linkboard"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_menu_selector"
+        android:gravity="center"
+        android:text="@string/lbl_menu"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:textSize="8sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnQuotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@android:color/white"
+            android:text="4"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_quotes"/>
+
+        <com.sss.linkboard.widget.circleimage.CircleImageView
+            android:layout_width="@dimen/action_bar_photo_size"
+            android:layout_height="@dimen/action_bar_photo_size"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/chipu_converted"
+            app:border_color="@android:color/black"
+            app:border_width="1dp"
+            app:shadow="true" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="LinkBoardThemeFullScreen" parent="@style/Theme.Sherlock.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="LinkBoardTheme" parent="@style/Theme.Sherlock.Light">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+
+
+
+
+    <style name="btn_login_signup">
+        <item name="android:layout_width" >fill_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:layout_margin" >5dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize" >22dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:background">@drawable/bg_button_login_selector</item>
+    </style>
+
+    <style name="btn_style_1">
+        <item name="android:layout_width" >fill_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:layout_margin" >5dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize" >22dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:background">@drawable/bg_button_1_selector</item>
+    </style>
+
+    <style name="footer_menu_item">
+        <item name="android:background">@drawable/bg_general_selector</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_weight">20</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="btn_action_search_result">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+
+    </style>
+
+    <style name="btn_tab_type_search">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/bg_button_tab_search_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="setting_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="setting_text_box_style">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/classes-b1c0e6b89e093ba54c41d18b709f0ea5bf065b03.jar" />
+    </item>
+    <item
+        jar="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2ef4d33e74f6af7a8dbe34bff3ef9c1ebc03fc4b.jar" />
+    </item>
+    <item
+        jar="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/classes-9756e3f25edd9bb6f96a9837d6f0f709d1fef2ed.jar" />
+    </item>
+    <item
+        jar="/Users/trongnhan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/gson-2.3.1-6f1b19ef6837fb82db30a1448dc0d101d5b2250d.jar" />
+    </item>
+    <item
+        jar="/Volumes/NhanData/AndroidStudioSDK/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-bc0da700e037aebdd4394091bd6ec6228392dacf.jar" />
+    </item>
+    <item
+        jar="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/exploded-aar/LinkBoard/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5ab0ec23a36d22b0001dfdd2a051206727b7cc45">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/classes-726ac880149bfe0c1de257abfc13385b22c52913.jar" />
+    </item>
+    <item
+        jar="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/libs/volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/volley-251eb1a0598bc8163a2b1a94332cdc8eddf3dab1.jar" />
+    </item>
+    <item
+        jar="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/exploded-aar/LinkBoard/library/unspecified/libs/nineoldandroids-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2be6181ab09464c2a1550585557a19481faaa8ec">
+        <dex dex="/Volumes/NhanData/Free/Hiep/MyLinkBoard/LinkBoard/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.2.0-ff4845fdf2709d83259af2b6bc24f00044168926.jar" />
+    </item>
+
+</items>

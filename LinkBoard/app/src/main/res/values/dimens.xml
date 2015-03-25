@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="margin_fourty">40dp</dimen>
+
+    <dimen name="action_bar_photo_size">45dp</dimen>
+
+    <dimen name="bing_item_margin">10dp</dimen>
+    <dimen name="bing_item_profile_image">70dp</dimen>
+    <dimen name="bing_item_profile_padding">5dp</dimen>
+    <dimen name="bing_item_title_size">20sp</dimen>
+    <dimen name="bing_item_user_size">18sp</dimen>
+    <dimen name="bing_item_content_size">14sp</dimen>
+    <dimen name="bing_item_content_margin_top">10dp</dimen>
+
+    <dimen name="popup_size_width">180dp</dimen>
+    <dimen name="popup_icon_size">30dp</dimen>
+
+    <dimen name="detail_layout_padding">20dp</dimen>
+</resources>

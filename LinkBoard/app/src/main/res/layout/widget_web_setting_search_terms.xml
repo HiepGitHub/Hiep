@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_above="@+id/bt_save_change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dip">
+
+            <TextView
+                style="@style/setting_title_style"
+                android:text="@string/web_setting_search_terms_all_of" />
+
+            <EditText
+                android:id="@+id/ed_all_of"
+                style="@style/setting_text_box_style" />
+
+            <TextView
+                style="@style/setting_title_style"
+                android:text="@string/web_setting_search_terms_any_of" />
+
+            <EditText
+                android:id="@+id/ed_any_of"
+                style="@style/setting_text_box_style" />
+
+            <TextView
+                style="@style/setting_title_style"
+                android:text="@string/web_setting_search_terms_none_of" />
+
+            <EditText
+                android:id="@+id/ed_none_of"
+                style="@style/setting_text_box_style" />
+
+            <TextView
+                style="@style/setting_title_style"
+                android:text="@string/web_setting_search_terms_this_exact" />
+
+            <EditText
+                android:id="@+id/ed_this_exact"
+                style="@style/setting_text_box_style" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/bt_save_change"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/bg_button_1_selector"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save_change"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

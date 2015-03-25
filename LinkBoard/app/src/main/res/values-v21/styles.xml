@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="LinkBoardThemeFullScreen" parent="@style/Theme.Sherlock.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="LinkBoardTheme" parent="@style/Theme.Sherlock.Light">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

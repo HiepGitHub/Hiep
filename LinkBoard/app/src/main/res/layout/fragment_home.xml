@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re_main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editSearchTrend"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:hint="@string/hint_search_trend" />
+
+    <LinearLayout
+        android:id="@+id/layoutTrendNews"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editSearchTrend"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_trending" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trending News"
+            android:textColor="@color/color_text_trend_new"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvTrendNews"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vg_bottom_sign_login"
+        android:layout_below="@+id/layoutTrendNews"
+        android:layout_marginTop="10dp"
+        android:divider="@null" />
+
+
+    <com.sss.linkboard.ui.component.HomeFooterView
+        android:id="@+id/vg_bottom_footer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color_home_footer_bg"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/vg_bottom_sign_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSignUpHome"
+            style="@style/btn_login_signup"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_signup"
+            android:textColor="@color/text_button_login_color" />
+
+        <Button
+            android:id="@+id/btnLoginHome"
+            style="@style/btn_login_signup"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_login"
+            android:textColor="@color/text_button_login_color" />
+    </LinearLayout>
+
+</RelativeLayout>

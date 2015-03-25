@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.sss.linkboard.ui.component.HeaderSearchView
+            android:id="@+id/header_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frame_web_search_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <FrameLayout
+                android:id="@+id/frame_social_search_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- View to display slider menu -->
+    <FrameLayout
+        android:id="@+id/frame_leftMenu"
+        android:layout_width="260dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:background="@color/list_background" />
+
+    <FrameLayout
+        android:id="@+id/frame_rightMenu"
+        android:layout_width="260dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:background="@color/list_background"/>
+
+</android.support.v4.widget.DrawerLayout>
