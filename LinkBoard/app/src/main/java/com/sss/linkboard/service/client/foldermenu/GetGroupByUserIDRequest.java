@@ -33,7 +33,7 @@ public class GetGroupByUserIDRequest extends GsonRequest<GroupByUserIDItem>{
         setTag(TAG_REQUEST);
     }
 
-    public static Map<String, String> buildParam(Context context, String userID){
+    public static Map<String, String> buildParam(String userID){
         Map<String,String> params = new HashMap<String, String>();
         params.put("userID", userID);
         return params;
