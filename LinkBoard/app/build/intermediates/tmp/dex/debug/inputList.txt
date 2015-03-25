@@ -1,0 +1,9 @@
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/classes/debug
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c38738dd5698a670c4ec673719cdddce7a48c1ed.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/classes-4cee69d5808336f7c51825c847d342b2140a3540.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/volley-6aff4afd2ff6cdd69c11989078ce30af6ba1f444.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.2.0-4e3a526120d39b423e873e46e0ee891e799f5858.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5879724f6c13b27ab861bd7e74d24768ceebaddb.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/gson-2.3.1-f7b9d9fa26bf44790e5ad3d2abbb2bb9304a5eb3.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/classes-36f29b73be8a4c8ee99a291959c286fe130c4da4.jar
+/Volumes/DATA/Project/github/link-board-android/LinkBoard/app/build/intermediates/pre-dexed/debug/classes-435fb966931fe1d6d368a3c9aca628abf7829b62.jar

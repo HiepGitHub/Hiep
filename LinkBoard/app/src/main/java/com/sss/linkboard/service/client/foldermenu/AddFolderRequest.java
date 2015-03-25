@@ -7,9 +7,9 @@ import com.sss.linkboard.service.network.GsonRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AddGroupByTitleRequest extends GsonRequest<GroupAddByTitleItem> {
+public class AddFolderRequest extends GsonRequest<AddFolderItem> {
 
-    public static String TAG_REQUEST = AddGroupByTitleRequest.class.getSimpleName();
+    public static String TAG_REQUEST = AddFolderRequest.class.getSimpleName();
     /**
      * Make a GET request and return a parsed object from JSON.
      *
@@ -21,20 +21,18 @@ public class AddGroupByTitleRequest extends GsonRequest<GroupAddByTitleItem> {
      * @param listener
      * @param errorListener
      */
-    public AddGroupByTitleRequest(int method, String url, Class<GroupAddByTitleItem> clazz, Map<String, String> headers, Map<String, String> params, Response.Listener<GroupAddByTitleItem> listener, Response.ErrorListener errorListener) {
+    public AddFolderRequest(int method, String url, Class<AddFolderItem> clazz, Map<String, String> headers, Map<String, String> params, Response.Listener<AddFolderItem> listener, Response.ErrorListener errorListener) {
         super(method, url, clazz, headers, params, listener, errorListener);
     }
-
-    public AddGroupByTitleRequest(Map<String, String> params, Response.Listener<GroupAddByTitleItem> listener, Response.ErrorListener errorListener){
-        this(Method.POST, LinkBoardAPI.ADD_GROUP_BY_USER_ID_TITLE, GroupAddByTitleItem.class, headerUrlEncode(), params, listener, errorListener);
+    public AddFolderRequest(Map<String, String> params, Response.Listener<AddFolderItem> listener, Response.ErrorListener errorListener){
+        this(Method.POST, LinkBoardAPI.ADD_FOLDER_BY_GROUP_ID, AddFolderItem.class, headerUrlEncode(), params, listener, errorListener);
         setTag(TAG_REQUEST);
     }
 
-    public static Map<String,String> buildParam(String userID, String title){
+    public static Map<String,String> buildParam(String groupID,String title){
         Map<String,String> params = new HashMap<String,String>();
-        params.put("userID", userID);
+        params.put("groupID", groupID);
         params.put("title", title);
         return params;
     }
-
 }
