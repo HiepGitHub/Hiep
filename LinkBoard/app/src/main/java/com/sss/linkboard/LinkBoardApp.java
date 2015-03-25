@@ -12,6 +12,10 @@ import com.sss.linkboard.service.client.SignUpItem;
 import com.sss.linkboard.service.client.SignUpRequest;
 import com.sss.linkboard.service.client.TweetRequest;
 import com.sss.linkboard.service.client.bing.Bing;
+import com.sss.linkboard.service.client.foldermenu.AddGroupByTitleRequest;
+import com.sss.linkboard.service.client.foldermenu.GetGroupByUserIDRequest;
+import com.sss.linkboard.service.client.foldermenu.GroupAddByTitleItem;
+import com.sss.linkboard.service.client.foldermenu.GroupByUserIDItem;
 import com.sss.linkboard.service.client.tweet.Tweet;
 import com.sss.linkboard.service.network.PlainTextParserError;
 import com.sss.linkboard.service.network.VolleySingleton;
@@ -83,5 +87,32 @@ public class LinkBoardApp extends Application{
 //                    Log.v("pickhaddotcom",volleyError.getMessage());
 //            }
 //        }));
+
+        /*Map<String, String> param = GetGroupByUserIDRequest.buildParam("309");
+        VolleySingleton.getInstance(getApplicationContext()).addToRequestQueue(new GetGroupByUserIDRequest(param,new Response.Listener<GroupByUserIDItem[]>() {
+            @Override
+            public void onResponse(GroupByUserIDItem[] groupByUserIDItem) {
+                Log.v("pickhaddotcom",groupByUserIDItem.length + "");
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                Log.v("pickhaddotcomerror",volleyError.getMessage());
+            }
+        }));*/
+
+        /*Map<String, String> param = AddGroupByTitleRequest.buildParam(309,"Second Group");
+        VolleySingleton.getInstance(getApplicationContext()).addToRequestQueue(new AddGroupByTitleRequest(param,new Response.Listener<GroupAddByTitleItem>() {
+            @Override
+            public void onResponse(GroupAddByTitleItem groupAddByTitleItem) {
+                Log.v("pickhaddotcom",groupAddByTitleItem.toString());
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                Log.v("pickhaddotcomerror",volleyError.getMessage());
+            }
+        }));*/
+
     }
 }

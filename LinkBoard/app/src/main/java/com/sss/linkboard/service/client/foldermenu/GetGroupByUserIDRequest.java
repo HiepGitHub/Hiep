@@ -10,7 +10,7 @@ import com.sss.linkboard.service.network.GsonRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GetGroupByUserIDRequest extends GsonRequest<GroupByUserIDItem>{
+public class GetGroupByUserIDRequest extends GsonRequest<GroupByUserIDItem[]>{
 
     public static String TAG_REQUEST = GetGroupByUserIDRequest.class.getSimpleName();
 
@@ -25,11 +25,11 @@ public class GetGroupByUserIDRequest extends GsonRequest<GroupByUserIDItem>{
      * @param listener
      * @param errorListener
      */
-    public GetGroupByUserIDRequest(int method, String url, Class<GroupByUserIDItem> clazz, Map<String, String> headers, Map<String, String> params, Response.Listener<GroupByUserIDItem> listener, Response.ErrorListener errorListener) {
+    public GetGroupByUserIDRequest(int method, String url, Class<GroupByUserIDItem[]> clazz, Map<String, String> headers, Map<String, String> params, Response.Listener<GroupByUserIDItem[]> listener, Response.ErrorListener errorListener) {
         super(method, url, clazz, headers, params, listener, errorListener);
     }
-    public GetGroupByUserIDRequest(Map<String, String> params, Response.Listener<GroupByUserIDItem> listener, Response.ErrorListener errorListener) {
-        this(Method.POST, LinkBoardAPI.GET_GROUP_BY_USER_ID, GroupByUserIDItem.class, headerUrlEncode(), params, listener, errorListener);
+    public GetGroupByUserIDRequest(Map<String, String> params, Response.Listener<GroupByUserIDItem[]> listener, Response.ErrorListener errorListener) {
+        this(Method.POST, LinkBoardAPI.GET_GROUP_BY_USER_ID, GroupByUserIDItem[].class, headerUrlEncode(), params, listener, errorListener);
         setTag(TAG_REQUEST);
     }
 
